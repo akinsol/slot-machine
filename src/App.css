@@ -1,0 +1,129 @@
+.button {
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+#main-page{
+  background-color: transparent;
+}
+
+#game{
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 20%;
+}
+
+#end-game {
+  background-color: black;
+  color: white;
+  padding: 0.5% 1%;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+#instructions > h2 {
+  text-align: center;
+}
+
+#instructions > ul > li {
+  margin: 5px;
+}
+
+#instructions {
+  background-color: rgba(27, 27, 27, 0.87);
+  text-align: left;
+  color: lightgray;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 20%;
+  border: 2px solid lightgray;
+}
+
+#leaderboard{
+  background-color: rgba(27, 27, 27, 0.87);
+  color: lightgray;
+  clear: both;
+  padding-bottom: 2%;
+  margin-top: 20%;
+  border: 2px solid lightgray;
+}
+
+#info-section {
+  display: inline-block;
+  position: relative;
+  bottom: 27%;
+  right: 8.5%;
+  width: 20%;
+  background-color: black;
+  color: gold;
+}
+
+#slot-box{
+  display: block;
+  background-color: black;
+  border: 2px solid gold;
+  height: 145px;
+}
+
+.slots{
+  display: inline;
+  margin: 0;
+}
+
+.slots > img {
+  background-color: white;
+  border: 2px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  margin: 0;
+}
+
+#slot2 > img {
+  border-left: 0;
+  border-right: 0;
+}
+
+#lever{
+  transition-duration: 0.4s;
+  border: 1px solid gold;
+  background-color: gold;
+  position: relative;
+  bottom: 45%;
+  left: 8.5%;
+  border-radius: 50px;
+}
+
+#lever:hover {
+  background-color: black;
+  color: gold;
+}
+
+#leaderboard > h2{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  #end-game {
+    width: 15%;
+  }
+  #info-section {
+    position: static;
+  }
+  .slots {
+    display: block;
+  }
+  #lever {
+    position: static;
+  }
+  #slot-box{
+    height: auto;
+  }
+}

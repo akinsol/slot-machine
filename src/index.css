@@ -1,0 +1,102 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url("/src/Files/slotsBackground.jpg");
+  background-size: 100%;
+  padding:0;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+#player-start{
+  background-color: rgba(27, 27, 27, 0.87);
+  color: gold;
+  padding: 5%;
+  margin: auto;
+  width: 30%;
+  border-radius: 4%;
+  border: solid gold 2px;
+}
+
+#player-start > label {
+  display: block;
+  margin-bottom: 4%;
+}
+
+#start-game-button{
+  color: gold;
+  background-color: black;
+  margin-top: 4%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding: 0.5% 1%;
+  width: 20%;
+  border: solid gold 1px;
+}
+
+#start-game-button:hover{
+  background-color: gold;
+  color: black;
+  border: solid black 1px;
+}
+
+#game-history-button {
+  background-color: black;
+  color: white;
+  padding: 0.5% 1%;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.game-history{
+  background-color: white;
+  padding-bottom: 4%;
+  padding-top: 1%;
+}
+
+.game-history > h2{
+  text-align: left;
+  margin-left: 9%;
+  font-size: 38px;
+}
+
+#search{
+  margin-left: 0;
+  margin-bottom: 1%;
+}
+
+#results{
+  margin-left: 1%;
+}
+
+th, td {
+  width: 10%;
+}
+
+.clear {
+  clear: both;
+}

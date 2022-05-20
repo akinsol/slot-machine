@@ -1,0 +1,21 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8000/add_record/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/leaderboard/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/records/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/search/dd
+Accept: application/json
+
+###
